@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #141526;
+  color:#ccc;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type=date]:invalid::-webkit-datetime-edit {
+  color: #999;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
